@@ -1,2 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
 
+h1, h2 {
+    color: #2a7ae2;
+}
+
+nav {
+    background-color: #4caf50;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    max-width: 200px;
+    margin: 1em auto;
+    border-radius: 50%;
+}
+
+section {
+    margin: 2em auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #607d8b;
+    color: white;
+    margin-top: 2em;
+}
 /* Your CSS Code here. */
